@@ -7,10 +7,10 @@ let package = Package(
     name: "MediaTailorSDK",
     platforms: [.iOS(.v16)],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "MediaTailor",
-            targets: ["MediaTailor"]),
+            targets: ["MediaTailor"]
+        )
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
