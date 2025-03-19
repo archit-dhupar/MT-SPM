@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "MediaTailorSDK",
-    platforms: [.iOS(.v14), .tvOS(.v14)]
+    platforms: [.iOS(.v16)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -22,9 +22,10 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "MediaTailorSDK",
-            url: "https://github.com/archit-dhupar/MT-SPM/releases/download/0.0.3/MediaTailorSDK.xcframework.zip",
+            url: "https://github.com/archit-dhupar/DzBase/releases/download/0.0.4/MediaTailorSDK.xcframework.zip",
             checksum: "5f78c865ef2627a4143f08cdc40e2af6c9d98bbe968b5f5d54a69c50e4cdd247")
     ],
     swiftLanguageVersions: [.v5]
 )
+
 
